@@ -67,3 +67,5 @@ app.use(`${BASE_URL}/v1`, v1_userRoutes);
 app.listen(API_PORT, (req, res) => {
     console.log(`API is listening on port ${API_PORT}`);
 });
+
+module.exports = app
